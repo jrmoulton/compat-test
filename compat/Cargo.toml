@@ -1,0 +1,9 @@
+[package]
+name = "compat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+type-one = { path = "../type-one" }
+serialize = { path = "../serialize" }
+serde = { workspace = true }

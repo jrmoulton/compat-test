@@ -1,0 +1,10 @@
+[workspace]
+
+
+members = ["type-one", "serialize", "requires-serialize", "compat", "my-crate"]
+
+
+resolver = "2"
+
+[workspace.dependencies]
+serde = "1.0"

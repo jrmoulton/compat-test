@@ -1,0 +1,8 @@
+[package]
+name = "requires-serialize"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serialize = { path = "../serialize" }
+serde_json = { version = "1.0" }
